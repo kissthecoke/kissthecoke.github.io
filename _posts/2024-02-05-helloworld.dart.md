@@ -55,4 +55,4 @@ runApp() 함수는 지정된 위젯을 받아 위젯 트리의 루트로 만듭�
 
 ### DartPad
 
-<iframe src="https://dartpad.dev/embed-flutter.html?id=0ef00b2d6ceb2d9553a5428e47d2d77b&theme=dark" style="width:100%;height:400px;border:none" ></iframe>
+<iframe src="https://dartpad.dev/embed-flutter.html?id=0ef00b2d6ceb2d9553a5428e47d2d77b" style="width:100%;height:400px;border:none" ></iframe>
