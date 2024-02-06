@@ -1,11 +1,8 @@
 ---
-title: Building user interfaces with Flutter
+title: Building user interfaces with Flutter:Hello world
 tags: TeXt
-js: [{defer: true, url: https://dartpad.dev/experimental/inject_embed.dart.js}]
 ---
 [https://docs.flutter.dev/ui](https://docs.flutter.dev/ui)
-
-# Building user interfaces with Flutter
 
 ### Hello world
 
