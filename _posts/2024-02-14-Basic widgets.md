@@ -2,7 +2,7 @@
 title: Basic widgets 
 tags: Text, Row, Column, Stack, Container
 ---
-## Begin widgets
+## Begin widgets 
 
 ### https://docs.flutter.dev/ui#basic-widgets
 
