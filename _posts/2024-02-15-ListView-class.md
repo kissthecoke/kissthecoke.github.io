@@ -34,7 +34,7 @@ By default, [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.ht
 
 <iframe src="https://dartpad.dev/?id=4c31b2f2d4b487faa4f75a04660f5edb" style="width:100%;height:800px;border:none"></iframe>
 
-    1-2.This example mirrors the previous one, creating the same list using the[ListView.builder](https://api.flutter.dev/flutter/widgets/ListView/ListView.builder.html) constructor. Using the [IndexedWidgetBuilder](https://api.flutter.dev/flutter/widgets/IndexedWidgetBuilder.html), children are built lazily and can be infinite in number.
+1-2.This example mirrors the previous one, creating the same list using the [ListView.builder](https://api.flutter.dev/flutter/widgets/ListView/ListView.builder.html) constructor. Using the [IndexedWidgetBuilder](https://api.flutter.dev/flutter/widgets/IndexedWidgetBuilder.html), children are built lazily and can be infinite in number.
 
 <iframe src="https://dartpad.dev/?id=2edc13bbe2876e9274b7a64963bd32c4" style="width:100%;height:800px;border:none"></iframe>
 
