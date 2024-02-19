@@ -1,0 +1,40 @@
+---
+title: AppBar Class
+categories: Doc_Flutter, widgets
+tags: Row
+---
+## AppBar class
+
+### https://api.flutter.dev/flutter/material/AppBar-class.html
+
+A Material Design app bar.
+
+An app bar consists of a toolbar and potentially other widgets, such as a [TabBar](https://api.flutter.dev/flutter/material/TabBar-class.html) and a [FlexibleSpaceBar](https://api.flutter.dev/flutter/material/FlexibleSpaceBar-class.html). App bars typically expose one or more common [actions](https://api.flutter.dev/flutter/material/AppBar/actions.html) with [IconButton](https://api.flutter.dev/flutter/material/IconButton-class.html)s which are optionally followed by a [PopupMenuButton](https://api.flutter.dev/flutter/material/PopupMenuButton-class.html) for less common operations (sometimes called the "overflow menu").
+
+App bars are typically used in the [Scaffold.appBar](https://api.flutter.dev/flutter/material/Scaffold/appBar.html) property, which places the app bar as a fixed-height widget at the top of the screen. For a scrollable app bar, see [SliverAppBar](https://api.flutter.dev/flutter/material/SliverAppBar-class.html), which embeds an [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html) in a sliver for use in a [CustomScrollView](https://api.flutter.dev/flutter/widgets/CustomScrollView-class.html).
+
+The AppBar displays the toolbar widgets, [leading](https://api.flutter.dev/flutter/material/AppBar/leading.html), [title](https://api.flutter.dev/flutter/material/AppBar/title.html), and [actions](https://api.flutter.dev/flutter/material/AppBar/actions.html), above the [bottom](https://api.flutter.dev/flutter/material/AppBar/bottom.html) (if any). The [bottom](https://api.flutter.dev/flutter/material/AppBar/bottom.html) is usually used for a [TabBar](https://api.flutter.dev/flutter/material/TabBar-class.html). If a [flexibleSpace](https://api.flutter.dev/flutter/material/AppBar/flexibleSpace.html) widget is specified then it is stacked behind the toolbar and the bottom widget. The following diagram shows where each of these slots appears in the toolbar when the writing language is left-to-right (e.g. English):
+
+The [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html) insets its content based on the ambient [MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)'s padding, to avoid system UI intrusions. It's taken care of by [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) when used in the [Scaffold.appBar](https://api.flutter.dev/flutter/material/Scaffold/appBar.html) property. When animating an [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html), unexpected [MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html) changes (as is common in [Hero](https://api.flutter.dev/flutter/widgets/Hero-class.html) animations) may cause the content to suddenly jump. Wrap the [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html) in a [MediaQuery](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html) widget, and adjust its padding such that the animation is smooth.
+
+![The leading widget is in the top left, the actions are in the top right,
+the title is between them. The bottom is, naturally, at the bottom, and the
+flexibleSpace is behind all of them.](https://flutter.github.io/assets-for-api-docs/assets/material/app_bar.png)
+
+If the [leading](https://api.flutter.dev/flutter/material/AppBar/leading.html) widget is omitted, but the [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html) is in a [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) with a [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html), then a button will be inserted to open the drawer. Otherwise, if the nearest [Navigator](https://api.flutter.dev/flutter/widgets/Navigator-class.html) has any previous routes, a [BackButton](https://api.flutter.dev/flutter/material/BackButton-class.html) is inserted instead. This behavior can be turned off by setting the [automaticallyImplyLeading](https://api.flutter.dev/flutter/material/AppBar/automaticallyImplyLeading.html) to false. In that case a null leading widget will result in the middle/title widget stretching to start.
+
+This sample shows an [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html) with two simple actions. The first action opens a [SnackBar](https://api.flutter.dev/flutter/material/SnackBar-class.html), while the second action navigates to a new page.
+
+### AppBar1
+
+<script src="https://gist.github.com/kissthecoke/ca6db4ff04db6e560700c099d51a53a3.js"></script>
+
+### AppBar & Navigator
+
+<script src="https://gist.github.com/kissthecoke/b57316c00d79a0f15a0c9d1c650cb12d.js"></script>
+
+
+### AppBar with the shadowColor and scrolledUnderElevation 
+
+
+<script src="https://gist.github.com/kissthecoke/7365345e9357ba40e316de7b80ade6f9.js"></script>
