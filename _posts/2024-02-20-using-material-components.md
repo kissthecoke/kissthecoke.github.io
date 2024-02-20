@@ -1,11 +1,11 @@
 ---
-title: using material components Class
+title: Using material components Class
 categories: Doc_Flutter, widgets
 tags: Row
 ---
-## using material components
+## Using material components
 
-https://docs.flutter.dev/ui#using-material-components
+### [https://docs.flutter.dev/ui#using-material-components](https://docs.flutter.dev/ui#using-material-components)
 
 ### Click and Test
 
