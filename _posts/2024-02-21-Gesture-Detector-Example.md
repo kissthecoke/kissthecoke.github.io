@@ -7,7 +7,7 @@ tags: Row
 
 ### [https://api.flutter.dev/flutter/widgets/GestureDetector-class.html](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
 
-### Click handling gestures and Test
+### Click gesture detector and Test
 
 <iframe src="https://kissthecoke.github.io/doc_flutter_samples//" style="width:430px;height:500px;border:1px solid gray"></iframe>
 
