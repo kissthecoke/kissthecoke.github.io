@@ -1,9 +1,9 @@
 ---
-title: Changing widgets in response to input2
+title: Changing widgets in response to input.2
 categories: Doc_Flutter, widgets
 tags: Row
 ---
-## Changing widgets in response to input2
+## Changing widgets in response to input.2
 
 ### [https://docs.flutter.dev/ui#changing-widgets-in-response-to-input](https://docs.flutter.dev/ui#changing-widgets-in-response-to-input)
 
