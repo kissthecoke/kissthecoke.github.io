@@ -34,5 +34,4 @@ In Flutter, change notifications flow “up” the widget hierarchy by way of ca
 
 ### Source Code
 
-
 <script src="https://gist.github.com/kissthecoke/09fe7de3658bb8e3e0008e3fbdef0251.js"></script>
