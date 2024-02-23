@@ -1,7 +1,7 @@
 ---
 title: Using material components Class
 categories: Doc_Flutter, widgets
-tags: Row
+tags: using material components
 ---
 ## Using material components
 
