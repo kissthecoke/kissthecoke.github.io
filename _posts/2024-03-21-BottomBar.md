@@ -10,7 +10,7 @@ Bottombar
 
 ### Click BottomAppBar and Test
 
-<iframe src="https://kissthecoke.github.io/doc_flutter_samples//" style="width:430px;height:1100px;border:1px solid gray"></iframe>
+<iframe src="https://kissthecoke.github.io/doc_flutter_samples//" style="width:700px;height:1100px;border:1px solid gray"></iframe>
 
 ### Dart Pad
 
