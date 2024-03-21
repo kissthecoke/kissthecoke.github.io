@@ -18,6 +18,7 @@ The style for the icons and text are not affected by parent [DefaultTextStyle](h
 
 This widget holds a collection of destinations (usually [NavigationDestination](https://api.flutter.dev/flutter/material/NavigationDestination-class.html)s).
 
+This example shows a [NavigationBar](https://api.flutter.dev/flutter/material/NavigationBar-class.html) as it is used within a [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) widget. The [NavigationBar](https://api.flutter.dev/flutter/material/NavigationBar-class.html) has three [NavigationDestination](https://api.flutter.dev/flutter/material/NavigationDestination-class.html) widgets and the initial [selectedIndex](https://api.flutter.dev/flutter/material/NavigationBar/selectedIndex.html) is set to index 0. The [onDestinationSelected](https://api.flutter.dev/flutter/material/NavigationBar/onDestinationSelected.html) callback changes the selected item's index and displays a corresponding widget in the body of the [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html).
 
 ### Click NavigationBarExampleApp1 and Test
 
