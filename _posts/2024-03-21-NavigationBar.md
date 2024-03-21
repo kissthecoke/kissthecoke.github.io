@@ -21,7 +21,7 @@ This widget holds a collection of destinations (usually [NavigationDestination](
 
 ### Click NavigationBarExampleApp1 and Test
 
-<iframe src="https://kissthecoke.github.io/doc_flutter_samples//" style="width:700px;height:1100px;border:1px solid gray"></iframe>
+<iframe src="https://kissthecoke.github.io/doc_flutter_samples//" style="width:650px;height:600px;border:1px solid gray"></iframe>
 
 ### Dart Pad
 
