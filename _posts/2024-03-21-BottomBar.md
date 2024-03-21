@@ -3,7 +3,7 @@ title: BottomBar
 categories: Doc_Flutter, widgets
 tags: Bottombar
 ---
-Bottombar
+bottomappbar
 
 ### [https://api.flutter.dev/flutter/material/BottomAppBar-class.html](https://api.flutter.dev/flutter/material/BottomAppBar-class.html)
 
