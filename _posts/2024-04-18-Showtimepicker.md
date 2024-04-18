@@ -1,0 +1,21 @@
+---
+title: Switch
+categories: Doc_Flutter, widgets
+tags: Switch
+---
+Switch
+
+### [https://api.flutter.dev/flutter/material/Switch-class.html](https://api.flutter.dev/flutter/material/Switch-class.html)
+
+### Click SwitchExample and Test
+
+<iframe src="https://kissthecoke.github.io/doc_flutter_samples//" style="width:650px;height:700px;border:1px solid gray"></iframe>
+
+### Dart Pad
+
+<iframe src="https://dartpad.dev/?id=c1413f339643de746ca6b1dff0b74b42" style="width:100%;height:800px;border:none"></iframe>
+
+### Source Code  
+
+
+<script src="https://gist.github.com/kissthecoke/c1413f339643de746ca6b1dff0b74b42.js"></script>
